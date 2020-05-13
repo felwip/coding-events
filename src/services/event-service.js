@@ -5,5 +5,5 @@ export function createEvent(event) {
 }
 
 export function getEvents() {
-  return axios.get("htt://localhost:3000/events");
+  return axios.get("http://localhost:3000/events");
 }
